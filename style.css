@@ -1,0 +1,59 @@
+body{
+    background-color:black;
+}
+#starting{
+    text-align:center;
+}
+h1{
+    color:white;
+    font-family:"Cambria","Sans Serif";
+}
+h4{
+    color:yellow;
+    font-family:"Lucida";
+}
+#buttons{
+  text-align:center;
+}
+.buttons{
+    font-family:"Comic Sans MS","Sans Serif";
+    border-style:solid;
+    border-width:5px;
+    border-radius:50px;
+    width:250px;
+    height:50px;
+    margin:10px 10px 10px 10px;
+}
+#add{
+    background-color:lightgreen;
+    border-color:green;
+    color:green;
+    /*position:absolute;
+    left:34%;
+    top:25%;*/
+}
+#add:hover{
+    box-shadow:0px 0px 5px 5px green;
+}
+#remove{
+    background-color:orange;
+    border-color:red;
+    color:red;
+    /*position:absolute;
+    left:34%;
+    top:35%;*/
+}
+#remove:hover{
+    box-shadow:0px 0px 5px 5px red;
+}
+#view{
+    background-color:yellow;
+    border-color:goldenrod;
+    color:goldenrod;
+    /*position:absolute;
+    left:34%;
+    top:45%;*/
+}
+#view:hover{
+    box-shadow:0px 0px 5px 5px goldenrod;
+}
